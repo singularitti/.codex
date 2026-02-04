@@ -1,0 +1,4 @@
+interface:
+  display_name: "UV Python Env"
+  short_description: "Initialize and sync uv-based Python venvs"
+  default_prompt: "Use $uv-python-env to set up or fix a uv-based Python environment."
