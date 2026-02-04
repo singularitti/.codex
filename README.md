@@ -1,0 +1,2 @@
+# .codex
+My `codex` configurations
