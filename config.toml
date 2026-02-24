@@ -1,0 +1,28 @@
+model = "gpt-5.3-codex"
+model_reasoning_effort = "medium"
+sandbox_mode = "workspace-write"
+approval_policy = "on-request"
+personality = "pragmatic"
+
+[features]
+unified_exec = true
+apps = true
+personality = true
+shell_snapshot = true
+multi_agent = true
+prevent_idle_sleep = true
+
+[[skills.config]]
+path = "~/.codex/skills/.system/skill-creator/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "~/.codex/skills/.system/skill-installer/SKILL.md"
+enabled = false
+
+[[skills.config]]
+path = "~/.codex/skills/spreadsheet/SKILL.md"
+enabled = false
+
+[tui]
+status_line = ["model-with-reasoning", "current-dir", "project-root", "git-branch", "context-used", "used-tokens", "five-hour-limit", "weekly-limit", "session-id"]
