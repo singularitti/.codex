@@ -16,8 +16,17 @@ description: Manage uv-based Python environments in a workspace. Use when Python
 
 - Activate the venv with `source /path/to/workspace/.venv/bin/activate`.
 - Prefer `uv run python <file.py>` to run scripts.
-- If a Python snippet is needed, write it to a `.py` file first and then run it. Avoid `uv run python -c "<multiline>"`.
+- If a Python snippet is needed, write it to a real `.py` file first and then run it. Avoid `uv run python -c "<multiline>"`, stdin, or heredoc launches, especially for multiprocessing workloads.
 - When writing a helper script, avoid `argparse` CLI scaffolding. Prefer small, local, low-coupling functions that take arguments, and call them explicitly under `if __name__ == "__main__":` without a `main()` function when possible.
+
+## Long-running jobs
+
+- Treat `uv run` tasks that may run longer than a quick validation as batch jobs, not interactive terminal sessions.
+- Prefer non-PTY execution for long-running jobs. Do not use a TTY just to watch logs unless interactive input is actually required.
+- Before starting a large run, estimate scale from the input size and expected output count. If the run may create a very large number of files or take substantial time, say so explicitly.
+- If a long-running command must stay attached for monitoring, use bounded waits and periodic checks rather than leaving an indefinite live session open.
+- After the useful work is done, explicitly terminate or close any leftover shell, PTY, or helper processes started for staging, monitoring, or progress checks.
+- When possible, prefer progress checks that do not keep extra long-lived terminal sessions alive.
 
 ## Troubleshooting
 
