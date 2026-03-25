@@ -26,3 +26,4 @@ enabled = false
 
 [tui]
 status_line = ["model-with-reasoning", "current-dir", "project-root", "git-branch", "context-used", "used-tokens", "five-hour-limit", "weekly-limit", "session-id"]
+theme = "catppuccin-frappe"
