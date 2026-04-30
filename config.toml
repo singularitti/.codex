@@ -12,6 +12,9 @@ personality = true
 shell_snapshot = true
 multi_agent = true
 prevent_idle_sleep = true
+workspace_dependencies = false
+memories = true
+remote_connections = true
 
 [[skills.config]]
 path = "~/.codex/skills/.system/skill-creator/SKILL.md"
