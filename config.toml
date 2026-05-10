@@ -6,15 +6,17 @@ personality = "pragmatic"
 approvals_reviewer = "user"
 
 [features]
+hooks = true
 unified_exec = true
 apps = true
 personality = true
 shell_snapshot = true
 multi_agent = true
 prevent_idle_sleep = true
-workspace_dependencies = false
+workspace_dependencies = true
 memories = true
 remote_connections = true
+fast_mode = false
 
 [[skills.config]]
 path = "~/.codex/skills/.system/skill-creator/SKILL.md"
