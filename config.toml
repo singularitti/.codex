@@ -33,3 +33,63 @@ enabled = false
 [tui]
 status_line = ["model-with-reasoning", "current-dir", "project-root", "git-branch", "context-used", "five-hour-limit", "weekly-limit"]
 theme = "catppuccin-frappe"
+
+[desktop]
+appearanceLightCodeThemeId = "rose-pine"
+appearanceDarkCodeThemeId = "everforest"
+sansFontSize = 13
+codeFontSize = 13
+usePointerCursors = true
+followUpQueueMode = "steer"
+composerEnterBehavior = "cmdIfMultiline"
+reviewDelivery = "inline"
+preventSleepWhileRunning = true
+keepRemoteControlAwakeWhilePluggedIn = true
+git-create-pull-request-as-draft = false
+git-show-sidebar-pr-icons = true
+selected-avatar-id = "null-signal"
+dictationDictionary = []
+browser-annotation-screenshots-mode = "necessary"
+appearanceTheme = "system"
+reduced-motion-preference = "off"
+hotkey-window-projectless-default-enabled = true
+show-context-window-usage = true
+
+[desktop.appearanceLightChromeTheme]
+accent = "#d7827e"
+contrast = 35
+ink = "#575279"
+opaqueWindows = true
+surface = "#faf4ed"
+
+[desktop.appearanceLightChromeTheme.fonts]
+code = '"Monaspace Krypton Var", MonoLisa, JuliaMono, "Monaspace Krypton NF"'
+ui = '"Monaspace Neon Var"'
+
+[desktop.appearanceLightChromeTheme.semanticColors]
+diffAdded = "#56949f"
+diffRemoved = "#797593"
+skill = "#907aa9"
+
+[desktop.appearanceDarkChromeTheme]
+accent = "#a7c080"
+contrast = 15
+ink = "#d3c6aa"
+opaqueWindows = true
+surface = "#2d353b"
+
+[desktop.appearanceDarkChromeTheme.fonts]
+code = '"Monaspace Krypton Var", MonoLisa, JuliaMono, "Monaspace Krypton NF"'
+ui = '"Monaspace Neon Var"'
+
+[desktop.appearanceDarkChromeTheme.semanticColors]
+diffAdded = "#a7c080"
+diffRemoved = "#e67e80"
+skill = "#d699b6"
+
+[desktop.open-in-target-preferences]
+global = "systemDefault"
+
+[mcp_servers.julia]
+command = "uv"
+args = ["run", "--directory", "/Users/qz/.ghq/github.com/aplavin/julia-mcp", "python", "server.py"]
