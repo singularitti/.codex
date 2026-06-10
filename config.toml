@@ -31,8 +31,8 @@ path = "~/.codex/skills/spreadsheet/SKILL.md"
 enabled = false
 
 [tui]
-status_line = ["model-with-reasoning", "current-dir", "project-root", "git-branch", "context-used", "five-hour-limit", "weekly-limit"]
-theme = "catppuccin-frappe"
+status_line = ["model-with-reasoning", "current-dir", "project-name", "git-branch", "context-used", "five-hour-limit", "weekly-limit", "run-state", "thread-title", "task-progress"]
+theme = "ansi"
 
 [desktop]
 appearanceLightCodeThemeId = "rose-pine"
