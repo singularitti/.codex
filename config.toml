@@ -90,6 +90,3 @@ skill = "#d699b6"
 [desktop.open-in-target-preferences]
 global = "systemDefault"
 
-[mcp_servers.julia]
-command = "uv"
-args = ["run", "--directory", "/Users/qz/.ghq/github.com/aplavin/julia-mcp", "python", "server.py"]
