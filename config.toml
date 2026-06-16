@@ -63,7 +63,7 @@ opaqueWindows = true
 surface = "#faf4ed"
 
 [desktop.appearanceLightChromeTheme.fonts]
-code = '"Monaspace Krypton Var", MonoLisa, JuliaMono, "Monaspace Krypton NF"'
+code = '"Monaspace Krypton Var", "Monaspace Krypton NF"'
 ui = '"Monaspace Neon Var"'
 
 [desktop.appearanceLightChromeTheme.semanticColors]
@@ -79,7 +79,7 @@ opaqueWindows = true
 surface = "#2d353b"
 
 [desktop.appearanceDarkChromeTheme.fonts]
-code = '"Monaspace Krypton Var", MonoLisa, JuliaMono, "Monaspace Krypton NF"'
+code = '"Monaspace Krypton Var", "Monaspace Krypton NF"'
 ui = '"Monaspace Neon Var"'
 
 [desktop.appearanceDarkChromeTheme.semanticColors]
