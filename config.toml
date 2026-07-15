@@ -1,92 +1,71 @@
-model = "gpt-5.5"
-model_reasoning_effort = "high"
-sandbox_mode = "danger-full-access"
 approval_policy = "on-request"
+model = "gpt-5.6-sol"
+model_reasoning_effort = "high"
 personality = "pragmatic"
-approvals_reviewer = "user"
-
-[features]
-hooks = true
-unified_exec = true
-apps = true
-personality = true
-shell_snapshot = true
-multi_agent = true
-prevent_idle_sleep = true
-workspace_dependencies = true
-memories = true
-remote_connections = true
-fast_mode = false
-
-[[skills.config]]
-path = "~/.codex/skills/.system/skill-creator/SKILL.md"
-enabled = false
-
-[[skills.config]]
-path = "~/.codex/skills/.system/skill-installer/SKILL.md"
-enabled = false
-
-[[skills.config]]
-path = "~/.codex/skills/spreadsheet/SKILL.md"
-enabled = false
-
-[tui]
-status_line = ["model-with-reasoning", "current-dir", "project-name", "git-branch", "context-used", "five-hour-limit", "weekly-limit", "run-state", "thread-title", "task-progress"]
-theme = "ansi"
+sandbox_mode = "danger-full-access"
+service_tier = "default"
 
 [desktop]
-appearanceLightCodeThemeId = "rose-pine"
 appearanceDarkCodeThemeId = "everforest"
-sansFontSize = 13
+appearanceLightCodeThemeId = "rose-pine"
 codeFontSize = 13
-usePointerCursors = true
-followUpQueueMode = "steer"
 composerEnterBehavior = "cmdIfMultiline"
-reviewDelivery = "inline"
-preventSleepWhileRunning = true
-keepRemoteControlAwakeWhilePluggedIn = true
-git-create-pull-request-as-draft = false
-git-show-sidebar-pr-icons = true
-selected-avatar-id = "null-signal"
-dictationDictionary = []
-browser-annotation-screenshots-mode = "necessary"
-appearanceTheme = "system"
-reduced-motion-preference = "off"
+conversationDetailMode = "STEPS_COMMANDS"
+defaultTerminalLocation = "right"
+enabled-reasoning-efforts = [ "low", "medium", "high", "xhigh", "ultra", "max" ]
+followUpQueueMode = "steer"
 hotkey-window-projectless-default-enabled = true
+keepRemoteControlAwakeWhilePluggedIn = true
+mac-menu-bar-enabled = false
+notifications-turn-mode = "unfocused"
+preventSleepWhileRunning = true
+sansFontSize = 13
+selected-avatar-id = "rocky"
 show-context-window-usage = true
-
-[desktop.appearanceLightChromeTheme]
-accent = "#d7827e"
-contrast = 35
-ink = "#575279"
-opaqueWindows = true
-surface = "#faf4ed"
-
-[desktop.appearanceLightChromeTheme.fonts]
-code = '"Monaspace Krypton Var", "Monaspace Krypton NF"'
-ui = '"Monaspace Neon Var"'
-
-[desktop.appearanceLightChromeTheme.semanticColors]
-diffAdded = "#56949f"
-diffRemoved = "#797593"
-skill = "#907aa9"
+show-ultra-in-model-picker-slider = true
+usePointerCursors = true
 
 [desktop.appearanceDarkChromeTheme]
 accent = "#a7c080"
-contrast = 15
+contrast = 20
 ink = "#d3c6aa"
-opaqueWindows = true
+opaqueWindows = false
 surface = "#2d353b"
 
 [desktop.appearanceDarkChromeTheme.fonts]
-code = '"Monaspace Krypton Var", "Monaspace Krypton NF"'
-ui = '"Monaspace Neon Var"'
+code = "Monaspace Krypton Var, Monaspace Krypton NF"
+ui = "Monaspace Neon Var"
 
 [desktop.appearanceDarkChromeTheme.semanticColors]
 diffAdded = "#a7c080"
 diffRemoved = "#e67e80"
 skill = "#d699b6"
 
+[desktop.appearanceLightChromeTheme]
+accent = "#d7827e"
+contrast = 45
+ink = "#575279"
+opaqueWindows = false
+surface = "#faf4ed"
+
+[desktop.appearanceLightChromeTheme.fonts]
+code = "Monaspace Krypton Var, Monaspace Krypton NF"
+ui = "Monaspace Neon Var"
+
+[desktop.appearanceLightChromeTheme.semanticColors]
+diffAdded = "#56949f"
+diffRemoved = "#797593"
+skill = "#907aa9"
+
 [desktop.open-in-target-preferences]
 global = "systemDefault"
 
+[features]
+js_repl = false
+memories = true
+multi_agent = true
+workspace_dependencies = true
+
+[memories]
+generate_memories = true
+use_memories = true
