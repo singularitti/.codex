@@ -1,25 +1,21 @@
 approval_policy = "on-request"
 model = "gpt-5.6-sol"
-model_reasoning_effort = "high"
+model_provider = "openai_http"
+model_reasoning_effort = "medium"
 personality = "pragmatic"
 sandbox_mode = "danger-full-access"
 service_tier = "default"
-model_provider = "openai_http"
 
-[model_providers.openai_http]
-name = "OpenAI HTTP"
-wire_api = "responses"
-requires_openai_auth = true
-supports_websockets = false
 
 [desktop]
+ambient-suggestions-enabled = true
 appearanceDarkCodeThemeId = "everforest"
 appearanceLightCodeThemeId = "rose-pine"
 codeFontSize = 13
 composerEnterBehavior = "cmdIfMultiline"
 conversationDetailMode = "STEPS_COMMANDS"
 defaultTerminalLocation = "right"
-enabled-reasoning-efforts = [ "low", "medium", "high", "xhigh", "ultra", "max" ]
+enabled-reasoning-efforts = [ "low", "medium", "high", "xhigh", "max", "ultra" ]
 followUpQueueMode = "steer"
 hotkey-window-projectless-default-enabled = true
 keepRemoteControlAwakeWhilePluggedIn = true
@@ -30,6 +26,7 @@ sansFontSize = 13
 selected-avatar-id = "rocky"
 show-context-window-usage = true
 show-ultra-in-model-picker-slider = true
+useFontSmoothing = true
 usePointerCursors = true
 
 [desktop.appearanceDarkChromeTheme]
