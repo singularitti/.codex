@@ -73,5 +73,6 @@ workspace_dependencies = true
 
 [memories]
 consolidation_model = "gpt-5.4-mini"
+extract_model = "gpt-5.4-mini"
 generate_memories = true
 use_memories = true
