@@ -37,7 +37,7 @@ opaqueWindows = false
 surface = "#2d353b"
 
 [desktop.appearanceDarkChromeTheme.fonts]
-code = "Monaspace Argon NF"
+code = "Monaspace Argon Var, Monaspace Argon NF"
 ui = "Monaspace Neon Var, PingFang SC"
 
 [desktop.appearanceDarkChromeTheme.semanticColors]
@@ -53,7 +53,7 @@ opaqueWindows = false
 surface = "#faf4ed"
 
 [desktop.appearanceLightChromeTheme.fonts]
-code = "Monaspace Argon NF"
+code = "Monaspace Argon Var, Monaspace Argon NF"
 ui = "Monaspace Neon Var, PingFang SC"
 
 [desktop.appearanceLightChromeTheme.semanticColors]
