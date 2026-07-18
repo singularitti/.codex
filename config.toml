@@ -65,6 +65,7 @@ skill = "#907aa9"
 global = "systemDefault"
 
 [features]
+hooks = true
 js_repl = false
 memories = true
 multi_agent = true
@@ -72,5 +73,6 @@ workspace_dependencies = true
 
 [memories]
 consolidation_model = "gpt-5.4-mini"
+extract_model = "gpt-5.4-mini"
 generate_memories = true
 use_memories = true
