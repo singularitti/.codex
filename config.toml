@@ -13,6 +13,7 @@ appearanceDarkCodeThemeId = "everforest"
 appearanceLightCodeThemeId = "rose-pine"
 codeFontSize = 13
 composerEnterBehavior = "cmdIfMultiline"
+composerPlainTextMode = true
 conversationDetailMode = "STEPS_COMMANDS"
 defaultTerminalLocation = "right"
 enabled-reasoning-efforts = [ "low", "medium", "high", "xhigh", "max", "ultra" ]
