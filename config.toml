@@ -38,8 +38,18 @@ opaqueWindows = false
 surface = "#2d353b"
 
 [desktop.appearanceDarkChromeTheme.fonts]
-code = "Monaspace Argon Var, Monaspace Argon NF"
-ui = "Monaspace Neon Var, PingFang SC"
+code = '"Monaspace Argon NF"'
+ui = '"Monaspace Argon Var"'
+
+[desktop.appearanceDarkChromeTheme.fonts.codeFace]
+family = "Monaspace Argon NF"
+fullName = "Monaspace Argon NF Light"
+postscriptName = "MonaspaceArgonNF-Light"
+
+[desktop.appearanceDarkChromeTheme.fonts.uiFace]
+family = "Monaspace Argon Var"
+fullName = "Monaspace Argon Var ExtraLight Light"
+postscriptName = "MonaspaceArgonVar-Light"
 
 [desktop.appearanceDarkChromeTheme.semanticColors]
 diffAdded = "#a7c080"
@@ -54,8 +64,18 @@ opaqueWindows = false
 surface = "#faf4ed"
 
 [desktop.appearanceLightChromeTheme.fonts]
-code = "Monaspace Argon Var, Monaspace Argon NF"
-ui = "Monaspace Neon Var, PingFang SC"
+code = '"Monaspace Argon NF"'
+ui = '"Monaspace Argon Var"'
+
+[desktop.appearanceLightChromeTheme.fonts.codeFace]
+family = "Monaspace Argon NF"
+fullName = "Monaspace Argon NF Light"
+postscriptName = "MonaspaceArgonNF-Light"
+
+[desktop.appearanceLightChromeTheme.fonts.uiFace]
+family = "Monaspace Argon Var"
+fullName = "Monaspace Argon Var ExtraLight Light"
+postscriptName = "MonaspaceArgonVar-Light"
 
 [desktop.appearanceLightChromeTheme.semanticColors]
 diffAdded = "#56949f"
