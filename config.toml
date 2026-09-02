@@ -109,3 +109,6 @@ name = "OpenAI HTTP"
 requires_openai_auth = true
 supports_websockets = false
 wire_api = "responses"
+[tui]
+status_line = ["model-with-reasoning", "current-dir", "project-name", "hostname", "git-branch", "pull-request-number", "run-state", "permissions", "approval-mode", "context-used", "five-hour-limit", "task-progress"]
+status_line_use_colors = true
