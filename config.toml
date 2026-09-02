@@ -56,6 +56,11 @@ family = "Monaspace Argon Var"
 fullName = "Monaspace Argon Var ExtraLight Light"
 postscriptName = "MonaspaceArgonVar-Light"
 
+[desktop.appearanceDarkChromeTheme.fonts.uiFace]
+family = "Inter Tight"
+fullName = "Inter Tight Regular Light"
+postscriptName = "InterTight-Regular_Light"
+
 [desktop.appearanceDarkChromeTheme.semanticColors]
 diffAdded = "#a7c080"
 diffRemoved = "#e67e80"
@@ -71,6 +76,7 @@ surface = "#faf4ed"
 [desktop.appearanceLightChromeTheme.fonts]
 code = '"Monaspace Argon NF"'
 content = '"Monaspace Argon Var"'
+ui = '"Inter Tight"'
 
 [desktop.appearanceLightChromeTheme.fonts.codeFace]
 family = "Monaspace Argon NF"
@@ -81,6 +87,11 @@ postscriptName = "MonaspaceArgonNF-Light"
 family = "Monaspace Argon Var"
 fullName = "Monaspace Argon Var ExtraLight Light"
 postscriptName = "MonaspaceArgonVar-Light"
+
+[desktop.appearanceLightChromeTheme.fonts.uiFace]
+family = "Inter Tight"
+fullName = "Inter Tight Regular Light"
+postscriptName = "InterTight-Regular_Light"
 
 [desktop.appearanceLightChromeTheme.semanticColors]
 diffAdded = "#56949f"
