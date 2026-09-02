@@ -103,3 +103,9 @@ consolidation_model = "gpt-5.6-luna"
 extract_model = "gpt-5.6-luna"
 generate_memories = true
 use_memories = true
+
+[model_providers.openai_http]
+name = "OpenAI HTTP"
+requires_openai_auth = true
+supports_websockets = false
+wire_api = "responses"
