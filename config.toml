@@ -24,6 +24,7 @@ hotkey-window-projectless-default-enabled = true
 keepRemoteControlAwakeWhilePluggedIn = true
 mac-menu-bar-enabled = false
 notifications-turn-mode = "unfocused"
+open-link-in-target-preference = "external-browser"
 preventSleepWhileRunning = true
 sansFontSize = 13
 selected-avatar-id = "rocky"
@@ -31,6 +32,8 @@ show-context-window-usage = true
 show-ultra-in-model-picker-slider = true
 useFontSmoothing = true
 usePointerCursors = true
+worktree-upstream-refresh-mode = "best-effort"
+toys-confetti-enabled = true
 
 [desktop.appearanceDarkChromeTheme]
 accent = "#a7c080"
@@ -88,6 +91,7 @@ skill = "#907aa9"
 global = "systemDefault"
 
 [features]
+chronicle = false
 hooks = true
 js_repl = false
 memories = true
