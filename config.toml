@@ -44,14 +44,14 @@ surface = "#2d353b"
 
 [desktop.appearanceDarkChromeTheme.fonts]
 code = '"Monaspace Argon NF"'
-ui = '"Monaspace Argon Var"'
+content = '"Monaspace Argon Var"'
 
 [desktop.appearanceDarkChromeTheme.fonts.codeFace]
 family = "Monaspace Argon NF"
 fullName = "Monaspace Argon NF Light"
 postscriptName = "MonaspaceArgonNF-Light"
 
-[desktop.appearanceDarkChromeTheme.fonts.uiFace]
+[desktop.appearanceDarkChromeTheme.fonts.contentFace]
 family = "Monaspace Argon Var"
 fullName = "Monaspace Argon Var ExtraLight Light"
 postscriptName = "MonaspaceArgonVar-Light"
@@ -70,14 +70,14 @@ surface = "#faf4ed"
 
 [desktop.appearanceLightChromeTheme.fonts]
 code = '"Monaspace Argon NF"'
-ui = '"Monaspace Argon Var"'
+content = '"Monaspace Argon Var"'
 
 [desktop.appearanceLightChromeTheme.fonts.codeFace]
 family = "Monaspace Argon NF"
 fullName = "Monaspace Argon NF Light"
 postscriptName = "MonaspaceArgonNF-Light"
 
-[desktop.appearanceLightChromeTheme.fonts.uiFace]
+[desktop.appearanceLightChromeTheme.fonts.contentFace]
 family = "Monaspace Argon Var"
 fullName = "Monaspace Argon Var ExtraLight Light"
 postscriptName = "MonaspaceArgonVar-Light"
