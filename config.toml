@@ -8,7 +8,6 @@ personality = "pragmatic"
 sandbox_mode = "danger-full-access"
 service_tier = "default"
 
-
 [desktop]
 ambient-suggestions-enabled = true
 appearanceDarkCodeThemeId = "everforest"
