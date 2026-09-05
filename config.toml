@@ -53,6 +53,7 @@ surface = "#2d353b"
 [desktop.appearanceDarkChromeTheme.fonts]
 code = '"Monaspace Argon NF"'
 content = '"Monaspace Argon Var"'
+ui = '"SF Pro"'
 
 [desktop.appearanceDarkChromeTheme.fonts.codeFace]
 family = "Monaspace Argon NF"
