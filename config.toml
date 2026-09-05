@@ -42,6 +42,8 @@ useFontSmoothing = true
 usePointerCursors = true
 worktree-upstream-refresh-mode = "best-effort"
 toys-confetti-enabled = true
+toys-audio-visualizer-enabled = true
+browser-show-full-url = true
 
 [desktop.appearanceDarkChromeTheme]
 accent = "#a7c080"
